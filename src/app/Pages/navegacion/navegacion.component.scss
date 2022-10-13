@@ -1,0 +1,50 @@
+.barra {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: -50px;
+  }
+  
+  .div-menu {
+    margin-top: -29px;
+  }
+  
+  /*barra*/
+  .menu {
+    width: 80%;
+    background: #ee5b07;
+    height: 50px;
+    border-radius: 500px;
+    margin: auto;
+    /*margin-top: 175px;
+      text-align: center;
+      margin-left: auto;*/
+  }
+  
+  .menuNav {
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  .example-button-row {
+    width: 100%;
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 8px 40px 8px 0;
+  }
+  
+  .boton {
+    font-size: 18px;
+    color: white;
+    transition: all 0.6s ease;
+    background: #ee5b07;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+  }
+  .boton:hover {
+    background-color: rgba(255, 255, 255, 0.788);
+    color: #ee5b07;
+    border-radius: 5px;
+  }
+  

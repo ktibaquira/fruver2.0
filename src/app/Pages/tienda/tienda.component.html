@@ -1,0 +1,15 @@
+<!--
+    categorias
+    frutas y verduras
+    Carnicos
+    Lacteos y productos campesinos
+    Granos y procesados
+-->
+<div class="contenedor">
+    <div  *ngFor="let categoria of categorias" >
+        <button class="boton" routerLink="/categoria" (click)="click(categoria.descripcion)" > 
+            <img width="70px" src="../../../assets/Iconos/verduras.png" alt=""> 
+            <p >{{categoria.descripcion}} </p>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+.contenedor {
+  width: 100%;
+  background: firebrick;
+  margin-top: 50px;
+  h2{
+    background: gold;
+    margin: auto;
+    text-align: center;
+
+  }
+}
+.contenido {
+  background: hotpink;
+  width: 15%;
+  margin: auto;
+  margin-top: 50px;
+}
+.example-card {
+  background: forestgreen;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.example-header-image {
+  background: darkblue;
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}

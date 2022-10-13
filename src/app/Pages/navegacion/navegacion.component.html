@@ -1,0 +1,37 @@
+<div>
+    <div class="barra">
+      <img width="100%" height="200px" src="../assets/Img/fdfin.jpg" alt="" />
+      <div class="div-menu">
+        <mat-toolbar class="menu">
+          <section class="menuNav">
+            <div class="example-button-row">
+              <button routerLink="inicio" mat-button class="boton">Inicio</button>
+              <button routerLink="tienda" mat-button class="boton">Tienda</button>
+              <button routerLink="/nosotros" mat-button class="boton">Nosotros</button>
+              <button mat-button class="boton">Carrito</button>
+              <button class="boton" mat-button [matMenuTriggerFor]="menuUsuario">
+                Usuario
+              </button>
+  
+              <mat-menu #menuUsuario="matMenu">
+                <button
+                  class="boton-usuario"
+                  mat-menu-item
+                  routerLink="/VerProductos"
+                >
+                  Inicio de sesion
+                </button>
+                <button
+                  class="boton-usuario"
+                  mat-menu-item
+                  routerLink="/agregarProductos"
+                >
+                  Registro
+                </button>
+              </mat-menu>
+            </div>
+          </section>
+        </mat-toolbar>
+      </div>
+    </div>
+  </div>

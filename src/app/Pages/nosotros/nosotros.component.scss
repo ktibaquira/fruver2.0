@@ -1,0 +1,315 @@
+/*.karen {
+  opacity: 0;
+  color: red;
+  &.x{
+    opacity: 1;
+  }
+}*/
+
+.nosotros {
+    //background: violet;
+    width: 100%;
+    height: auto;
+  
+    //contenedor nosotros
+    .contenedor-nosotros {
+      //background: brown;
+      height: auto;
+  
+      h2 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin-top: 20px;
+        font-size: 1.9em;
+        font-weight: bold;
+      }
+  
+      p {
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+        color: rgb(0, 0, 0);
+        margin-top: 20px;
+      }
+  
+      video {
+        //background: green;
+        display: flex;
+        margin-top: 20px !important;
+        margin: auto;
+        border-radius: 20px;
+        border-color: white;
+      }
+    }
+  
+    //contenedor mision
+    .contenedor-mision-vision {
+      background-image: url(../../../assets/Img/fdfin.jpg);
+      width: 100%;
+      height: 400px;
+      display: grid;
+      margin-top: 50px;
+      grid-template-columns: repeat(2, 1fr);
+      background-color: rgb(145, 40, 40);
+    }
+    //mision
+    .mision {
+      //background: hotpink;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin: auto;
+      
+  
+      h2 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+        font-size: 1.9em;
+        font-weight: bold;
+        opacity: 1;
+      }
+  
+      p {
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+  
+      }
+    }
+    //vision
+    .vision {
+      //background: hotpink;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      margin: auto;
+  
+      h2 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+        font-size: 1.9em;
+        font-weight: bold;
+      }
+  
+      p {
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+  
+      }
+    }
+  
+    //contenedor contacto
+    .contenedor-contacto {
+      //background: lawngreen;
+      width: 100%;
+      height: 540px;
+      margin-top: 50px;
+  
+      h2 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin-top: 30px;
+        font-size: 1.9em;
+        font-weight: bold;
+      }
+  
+      /* From uiverse.io by @alexruix */
+      .input-group {
+        position: relative;
+        //background: #1a73e8;
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+  
+      }
+  
+      .input {
+        width: 90%;
+        border: solid 2px #ee5b07;
+        border-radius: 1rem;
+        background: none;
+        padding: 1rem;
+        font-size: 1rem;
+        color: #000000;
+        transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+  
+      .user-label {
+        position: absolute;
+        left: 15px;
+        color: #000000;
+        pointer-events: none;
+        transform: translateY(1rem);
+        transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+  
+      .input:focus,
+      input:valid {
+        outline: none;
+        border: 2px solid #ee5b07;
+      }
+  
+      .input:focus~label,
+      input:valid~label {
+        transform: translateY(-50%) scale(0.8);
+        background-color: #ee5b07;
+        padding: 0 .2em;
+        color: #ffffff;
+      }
+  
+      /* From uiverse.io by @adamgiebl */
+      button {
+        font-family: inherit;
+        font-size: 20px;
+        background: #ee5b07;
+        color: white;
+        padding: 0.7em 1em;
+        padding-left: 0.9em;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 16px;
+        overflow: hidden;
+        transition: all 0.2s;
+        margin: auto;
+        margin-top: 20px;
+      }
+  
+      button span {
+        display: block;
+        margin-left: 0.3em;
+        transition: all 0.3s ease-in-out;
+      }
+  
+      button svg {
+        display: block;
+        transform-origin: center center;
+        transition: transform 0.3s ease-in-out;
+      }
+  
+      button:hover .svg-wrapper {
+        animation: fly-1 0.6s ease-in-out infinite alternate;
+      }
+  
+      button:hover svg {
+        transform: translateX(1.2em) rotate(45deg) scale(1.1);
+      }
+  
+      button:hover span {
+        transform: translateX(5em);
+      }
+  
+      button:active {
+        transform: scale(0.95);
+      }
+  
+      @keyframes fly-1 {
+        from {
+          transform: translateY(0.1em);
+        }
+  
+        to {
+          transform: translateY(-0.1em);
+        }
+      }
+  
+  
+    }
+  
+    /*****************************************************************************************/
+    /*footer*/
+    .footer {
+      background: #ee5b07;
+      width: 100%;
+      height: 300px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .logo {
+      /*background: yellowgreen;*/
+      text-align: center;
+    }
+  
+    .logo img {
+      width: 20%;
+      margin-top: 50px;
+      text-align: center;
+    }
+  
+    .logo h3 {
+      color: white;
+      font-style: italic;
+    }
+  
+    .acceso-redes {
+      width: 50%;
+      /*background: #556565;*/
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin: auto;
+      margin-top: 20px;
+    }
+  
+    .contactenos {
+      //background: yellow; 
+  
+      h2 {
+        color: white;
+        font-size: 1.6em;
+        margin-top: 30px;
+        text-align: center;
+      }
+    }
+  
+  
+    .datos {
+      width: 70%;
+      /*background: violet;*/
+      color: white;
+      text-align: left;
+      margin-top: 20px;
+      margin: auto;
+    }
+  
+    .horarios {
+      //background: rgb(143, 30, 235);
+  
+      h2 {
+        color: white;
+        font-size: 1.7em;
+        margin-top: 30px;
+        text-align: center;
+      }
+    }
+  
+    .datos-horarios {
+      //background: violet;
+      width: 50%;
+      color: white;
+      text-align: left;
+      margin-top: 20px;
+      margin: auto;
+      font-size: 0.9em;
+    }
+  
+    .derechos {
+      background: #8a3605;
+      width: 100%;
+      height: 30px;
+      text-align: center;
+      h4 {
+        padding-top: 5px;
+        color: white;
+        font-size: 0.9em;
+      }
+    }
+  
+  
+  
+  }
